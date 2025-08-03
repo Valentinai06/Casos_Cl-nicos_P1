@@ -1,0 +1,11 @@
+Inicio
+Leer M valores de frecuencia cardíaca (ppm)
+Contador = 0
+Para cada valor en las lecturas    
+Si el valor está fuera del rango 60 a 100
+Aumentar el contador en 1
+Si el contador es mayor a 3
+IMPRIMIR “POTENCIAL ARRITMIA”
+Si no
+IMPRIMIR “Rítmico”
+Fin
