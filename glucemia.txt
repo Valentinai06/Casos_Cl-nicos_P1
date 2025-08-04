@@ -1,10 +1,18 @@
 Inicio
 Leer N valores de glucosa (mg/dL)
-Calcular el promedio de las lecturas
-Si el promedio es mayor a 180
+i = 1
+suma = 0 
+MIENTRAS i <= N HACER 
+LEER glucosa
+SUMA = SUMA + glucosa
+i = i + 1
+FIN MIENTRAS
+PROMEDIO = SUMA / N
+Si el promedio es > 180
 Mostrar “HIPERGLUCEMIA”
-Si no, si el promedio es menor a 70
+SINO, si el promedio es < 70
 IMPRIMIR “HIPOGLUCEMIA”
-Si no
+SINO
 IMPRIMIR “NORMAL”
-Fin
+FIN SI
+FIN

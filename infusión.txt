@@ -2,8 +2,9 @@ Inicio
 Leer la dosis prescrita (en mg/h)
 Leer la concentración (en mg/mL)
 Calcular la velocidad = dosis / concentración
-Si la velocidad es mayor a 50
+Si la velocidad es > 50
 IMPRIMIR “¡PIDE ATENCIÓN!”
-Si no
+SINO
 IMPRIMIR “Continuar”
-Fin
+FIN SI
+FIN 
